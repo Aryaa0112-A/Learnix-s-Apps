@@ -1,0 +1,898 @@
+﻿BAB II 
+
+PERANCANGAN APLIKASI 
+
+2.1.  Metodologi Pengembangan Sistem 
+
+2.1.1. Pengenalan Metode Agile 
+
+Metode Agile adalah pendekatan pengembangan perangkat lunak yang 
+
+menekankan fleksibilitas, kolaborasi tim, dan respons cepat terhadap perubahan. 
+
+Berbeda dengan metode pengembangan tradisional seperti Waterfall yang bersifat 
+
+sekuensial dan kaku, Agile memungkinkan tim untuk bekerja dalam siklus iteratif 
+
+pendek yang disebut "sprint", di mana perangkat lunak dikembangkan, diuji, dan 
+
+dievaluasi secara berulang. 
+
+Metode Agile didasarkan pada Manifesto Agile yang diformulasikan pada 
+
+tahun 2001 oleh sekelompok praktisi pengembangan perangkat lunak. Manifesto ini 
+
+menekankan empat nilai utama: 
+
+1. Individu dan interaksi lebih penting daripada proses dan alat 
+
+2. Perangkat lunak yang berfungsi lebih penting daripada dokumentasi yang 
+
+komprehensif 
+
+3. Kolaborasi dengan pelanggan lebih penting daripada negosiasi kontrak 
+
+4. Merespons perubahan lebih penting daripada mengikuti rencana 
+
+Dalam konteks pengembangan sistem e-learning, metode Agile sangat relevan 
+
+karena memungkinkan tim pengembang untuk: 
+
+1. Beradaptasi dengan kebutuhan pengguna (siswa, guru, dan administrator) yang 
+
+terus berubah 
+
+2. Memberikan fitur-fitur fungsional secara bertahap untuk mendapatkan umpan 
+
+balik lebih cepat 
+
+ 
+8 
+
+  
+
+
+
+ 
+
+3. Meningkatkan kolaborasi antar anggota tim pengembang dan pemangku 
+
+kepentingan 
+
+4. Mengurangi risiko kegagalan proyek dengan deteksi masalah lebih awal 
+
+Menurut penelitian (Hidayah dan Asnadi, 2024), penerapan metode Agile 
+
+dalam manajemen proyek memiliki dampak signifikan pada keberhasilan proyek 
+
+pengembangan sistem. Studi mereka menunjukkan bahwa pendekatan iteratif dan 
+
+inkremental yang ditawarkan oleh Agile memungkinkan tim untuk lebih responsif 
+
+terhadap perubahan kebutuhan dan lebih efektif dalam mengelola kompleksitas 
+
+proyek. 
+
+2.1.2. Tahapan Pengembangan E-learning 
+
+Dalam pengembangan sistem e-learning menggunakan metodologi Agile, 
+
+terdapat beberapa tahapan utama yang perlu dilalui: 
+
+1. Perencanaan dan Pengumpulan Kebutuhan 
+
+a. Identifikasi pemangku kepentingan (stakeholders) 
+
+b. Pengumpulan kebutuhan pengguna melalui wawancara, survei, dan observasi 
+
+c. Pembuatan user stories dan product backlog 
+
+d. Penentuan prioritas fitur dan fungsionalitas 
+
+2. Desain Sistem 
+
+a. Perancangan arsitektur sistem 
+
+b. Pembuatan wireframe dan mockup antarmuka pengguna 
+
+c. Desain basis data dan struktur data 
+
+d. Penentuan teknologi dan framework yang akan digunakan 
+
+3. Pengembangan Iteratif 
+
+a. Pembagian pengembangan ke dalam sprint (biasanya 1-4 minggu) 
+
+b. Implementasi fitur berdasarkan prioritas dari product backlog 
+
+ 
+9 
+
+  
+
+
+
+ 
+
+c. Daily stand-up meetings untuk koordinasi tim 
+
+d. Pengujian unit dan integrasi berkelanjutan 
+
+4. Pengujian dan Evaluasi 
+
+a. Pengujian fungsional dan non-fungsional 
+
+b. Evaluasi kinerja sistem 
+
+c. Pengujian keamanan dan kehandalan 
+
+d. Pengujian penerimaan pengguna (UAT) 
+
+5. Deployment dan Perawatan 
+
+a. Penerapan sistem ke lingkungan produksi 
+
+b. Pelatihan pengguna 
+
+c. Pemantauan kinerja sistem 
+
+d. Perbaikan bug dan peningkatan fitur berkelanjutan 
+
+Menurut (Gumay et al, 2023), implementasi metode Agile dalam 
+
+pengembangan aplikasi akademik Learning Management System (LMS) memudahkan 
+
+pengembang dalam melakukan kolaborasi desain dengan membagi tugas dalam 
+
+beberapa sprint sehingga dapat menghasilkan desain dalam waktu singkat. Pendekatan 
+
+ini memungkinkan tim untuk beradaptasi dengan cepat terhadap perubahan kebutuhan 
+
+dan memberikan nilai tambah kepada pengguna lebih awal. 
+
+(Firdaus et al, 2024) juga menekankan pentingnya lingkungan CASE 
+
+(Computer-Aided Software Engineering) yang terintegrasi untuk mendukung 
+
+pembelajaran berbasis proyek dengan metodologi Agile. Mereka mengembangkan 
+
+Agilearn, sebuah lingkungan CASE yang dirancang khusus untuk kursus berbasis 
+
+proyek dengan fokus kuat pada promosi keberlanjutan. Lingkungan ini meningkatkan 
+
+pengalaman belajar dengan menawarkan platform kolaboratif yang mengotomatisasi 
+
+tugas dan membangun lingkungan Agile yang terstandarisasi untuk siswa. 
+
+ 
+10 
+
+  
+
+
+
+ 
+
+(Dazeley et al, 2025) mengusulkan pendekatan Agile Backward Design (ABD) 
+
+yang menggabungkan prinsip-prinsip Agile dengan metode Backward Design untuk 
+
+pengembangan kurikulum pendidikan tinggi. Model ini menekankan pentingnya 
+
+iterasi, kolaborasi, dan fokus pada hasil pembelajaran, yang sejalan dengan prinsip-
+
+prinsip pengembangan sistem e-learning berbasis Agile. 
+
+Dengan mengadopsi metodologi Agile dalam pengembangan sistem e-
+
+learning, tim dapat menghasilkan sistem yang lebih sesuai dengan kebutuhan 
+
+pengguna, lebih adaptif terhadap perubahan, dan lebih cepat dalam memberikan nilai 
+
+tambah kepada organisasi. 
+
+2.2. Rancangan Sistem 
+
+2.2.1. Use Case Diagram 
+
+Use case diagram merupakan diagram yang menggambarkan interaksi antara 
+
+pengguna (aktor) dengan sistem. Diagram ini berfungsi untuk mendeskripsikan 
+
+fungsionalitas sistem dari perspektif pengguna dan mengidentifikasi siapa saja yang 
+
+berinteraksi dengan sistem serta layanan apa saja yang diberikan oleh sistem (Hendini, 
+
+2016). 
+
+Dalam pengembangan sistem e-learning, use case diagram sangat penting 
+
+untuk menggambarkan dengan jelas batasan sistem dan menentukan fitur-fitur yang 
+
+akan disediakan oleh sistem. Menurut penelitian (Suendri, 2019), penggunaan use case 
+
+diagram dalam analisis kebutuhan sistem informasi akademik membantu pengembang 
+
+untuk memahami kebutuhan pengguna dengan lebih baik dan meminimalkan 
+
+kesalahpahaman antara pengembang dan pengguna. 
+
+Pada sistem e-learning yang dikembangkan, terdapat tiga aktor utama yaitu 
+
+Admin, Guru, dan Siswa. Setiap aktor memiliki peran dan hak akses yang berbeda 
+
+dalam berinteraksi dengan sistem. 
+
+ 
+11 
+
+  
+
+
+
+ 
+
+1. Use Case Admin 
+
+Use case Admin menggambarkan interaksi antara administrator sistem dengan 
+
+fungsi-fungsi yang dapat diakses oleh administrator. Administrator memiliki hak akses 
+
+tertinggi dalam sistem dan bertanggung jawab untuk mengelola seluruh data master 
+
+dan konfigurasi sistem. 
+
+Gambar II.1 
+Use Case Admin 
+
+Berdasarkan use case diagram di atas, Admin memiliki beberapa fungsi utama, 
+
+yaitu: 
+
+a. Mengelola Data Siswa: Admin dapat melakukan pendaftaran siswa baru, 
+
+melihat daftar siswa, memperbarui data siswa, dan menghapus data siswa jika 
+
+diperlukan. 
+
+b. Mengelola Data Guru: Admin dapat mendaftarkan guru baru, melihat daftar 
+
+guru, memperbarui data guru, dan menghapus data guru jika diperlukan. 
+
+ 
+12 
+
+  
+
+
+
+ 
+
+c. Mengelola Mapel: Admin dapat menambahkan mata pelajaran baru, melihat 
+
+daftar mata pelajaran, memperbarui informasi mata pelajaran, dan menghapus 
+
+mata pelajaran yang tidak digunakan lagi. 
+
+d. Mengelola Kelas: Admin dapat membuat kelas baru, melihat daftar kelas, 
+
+memperbarui informasi kelas, dan menghapus kelas yang tidak digunakan 
+
+lagi. 
+
+e. Mengelola Jadwal: Admin dapat menyusun jadwal pelajaran, melihat daftar 
+
+jadwal, memperbarui jadwal, dan menghapus jadwal yang tidak digunakan 
+
+lagi. 
+
+Setiap fungsi tersebut merupakan akses khusus yang dimiliki oleh Admin untuk 
+
+memastikan sistem e-learning berjalan dengan baik dan efisien. 
+
+2. Use Case Guru 
+
+Use case Guru menggambarkan interaksi antara guru dengan fungsi-fungsi yang 
+
+dapat diakses oleh guru dalam sistem e-learning. Guru memiliki peran penting dalam 
+
+pengelolaan konten pembelajaran dan evaluasi siswa. 
+
+ 
+
+ 
+13 
+
+  
+
+
+
+ 
+
+Gambar II.2 
+Use Case Guru 
+
+Berdasarkan use case diagram di atas, Guru memiliki beberapa fungsi utama, 
+
+yaitu: 
+
+a. Melihat Data Siswa: Guru dapat melihat data siswa yang terdaftar dalam 
+
+kelas yang diampunya, termasuk profil dan kemajuan belajar siswa. 
+
+b. Mengelola Materi: Guru dapat mengunggah materi pembelajaran baru, 
+
+melihat daftar materi yang sudah diunggah, memperbarui materi, dan 
+
+menghapus materi yang tidak digunakan lagi. 
+
+c. Mengelola Tugas: Guru dapat membuat tugas baru, melihat daftar tugas yang 
+
+sudah dibuat, memperbarui tugas, dan menghapus tugas yang tidak digunakan 
+
+lagi. Guru juga dapat memeriksa dan memberikan nilai pada tugas yang 
+
+dikumpulkan oleh siswa. 
+
+d. Melihat Jadwal: Guru dapat melihat jadwal mengajar mereka sendiri dan 
+
+jadwal pelajaran untuk kelas yang diampunya. 
+
+e. Melihat Kelas: Guru dapat melihat informasi tentang kelas yang diampunya, 
+
+termasuk daftar siswa dan mata pelajaran yang diajarkan. 
+
+Dalam konteks pembelajaran daring, fungsi-fungsi tersebut sangat penting untuk 
+
+memudahkan guru dalam mengelola kelas virtual mereka. 
+
+3. Use Case Siswa 
+
+ 
+14 
+
+  
+
+
+
+ 
+
+Use case Siswa menggambarkan interaksi antara siswa dengan fungsi-fungsi yang 
+
+dapat diakses oleh siswa dalam sistem e-learning. Siswa adalah pengguna utama 
+
+sistem e-learning yang akan mengakses materi pembelajaran dan mengerjakan tugas. 
+
+Gambar II.3 
+Use Case Siswa 
+
+Berdasarkan use case diagram di atas, Siswa memiliki beberapa fungsi utama, 
+
+yaitu: 
+
+a. Mengakses Halaman Materi: Siswa dapat melihat dan mengunduh materi 
+
+pembelajaran yang telah diunggah oleh guru untuk mata pelajaran yang 
+
+diikutinya. 
+
+b. Mengakses Halaman Tugas: Siswa dapat melihat daftar tugas yang diberikan 
+
+oleh guru, mengerjakan tugas, dan mengunggah jawaban tugas untuk dinilai 
+
+oleh guru. 
+
+c. Mengakses Halaman Jadwal: Siswa dapat melihat jadwal pelajaran untuk kelas 
+
+yang diikutinya, termasuk informasi tentang waktu, mata pelajaran, dan guru 
+
+pengajar. 
+
+ 
+15 
+
+  
+
+
+
+ 
+
+Desain use case untuk siswa harus fokus pada kemudahan akses dan penggunaan, 
+
+karena siswa adalah pengguna utama yang akan berinteraksi dengan sistem secara 
+
+rutin. 
+
+Rancangan use case diagram ini mengikuti prinsip desain yang berpusat pada 
+
+pengguna (user-centered design), di mana kebutuhan dan pengalaman pengguna 
+
+menjadi pertimbangan utama dalam pengembangan sistem. Hal ini sejalan dengan 
+
+pendekatan Agile yang menekankan kolaborasi dengan pengguna dan adaptasi 
+
+terhadap kebutuhan pengguna yang berubah (Petrescu & Sterca, 2021). 
+
+2.2.2. Sequence Diagram 
+
+Sequence diagram menggambarkan interaksi antar objek dalam sistem secara 
+
+kronologis, menekankan pada urutan pesan yang dikirimkan antar objek. Diagram ini 
+
+sangat berguna untuk memvisualisasikan aliran proses dan komunikasi antar 
+
+komponen dalam sistem. 
+
+Sequence diagram admin menggambarkan alur interaksi antara admin, 
+
+antarmuka, controller, dan berbagai entitas seperti data siswa, guru, mata pelajaran, 
+
+kelas, dan jadwal. 
+
+1. Sequence Diagram Admin 
+
+ 
+16 
+
+  
+
+
+
+ 
+
+ 
+
+Gambar II.4 
+Sequence Diagram Admin 
+
+Diagram di atas menunjukkan bagaimana admin berinteraksi dengan sistem untuk 
+
+mengelola berbagai data. Proses dimulai ketika admin membuka menu dan melakukan 
+
+berbagai operasi seperti melihat data, menambah data baru, mengubah data, atau 
+
+menghapus data. Setiap pesan antara objek ditampilkan secara berurutan dari atas ke 
+
+bawah, menunjukkan aliran proses yang terjadi saat admin menggunakan sistem. 
+
+2. Sequence Diagram Guru 
+
+ 
+17 
+
+  
+
+
+
+ 
+
+ 
+
+Gambar II.5 
+Sequence Diagram Guru 
+
+Sequence diagram guru memvisualisasikan interaksi antara guru, antarmuka, 
+
+controller, dan berbagai entitas seperti data siswa, materi, tugas, kelas, dan jadwal. 
+
+Diagram ini mengilustrasikan bagaimana guru dapat mengelola materi pembelajaran, 
+
+membuat dan mengevaluasi tugas, serta melihat jadwal dan data kelas. 
+
+Alur proses dimulai dari guru yang melakukan berbagai aktivitas seperti membuka 
+
+menu, melihat data siswa, menambahkan materi, mengelola tugas, dan melihat jadwal. 
+
+ 
+18 
+
+  
+
+
+
+ 
+
+Setiap pesan dalam diagram menunjukkan bagaimana data mengalir dari satu objek ke 
+
+objek lainnya dalam konteks arsitektur MVC. 
+
+3. Sequence Diagram Siswa 
+
+ 
+
+Gambar II.6 
+Sequence Diagram Siswa 
+
+Sequence diagram siswa menggambarkan interaksi antara siswa, antarmuka, 
+
+controller, dan berbagai entitas seperti materi, tugas, dan jadwal. Diagram ini 
+
+menunjukkan bagaimana siswa mengakses materi pembelajaran, melihat dan 
+
+mengumpulkan tugas, serta melihat jadwal pelajaran. 
+
+Proses dimulai dengan siswa membuka menu, kemudian mengakses materi 
+
+pembelajaran, mengunduh file, melihat tugas, dan melihat jadwal. Sequence diagram 
+
+ini menggambarkan dengan jelas alur akses informasi yang dapat dilakukan oleh siswa 
+
+dalam sistem e-learning. 
+
+2.2.3. Class Diagram 
+
+Class diagram merupakan diagram yang menggambarkan struktur sistem dari 
+
+perspektif pendefinisian kelas-kelas yang akan dibuat untuk membangun sistem. Class 
+
+ 
+19 
+
+  
+
+
+
+ 
+
+diagram terdiri dari kelas, atribut, operasi, serta relasi antar kelas yang menunjukkan 
+
+bagaimana objek dalam sistem berinteraksi satu sama lain. 
+
+Dalam pengembangan sistem e-learning berbasis CodeIgniter, class diagram 
+
+memiliki peran penting untuk memetakan struktur Model-View-Controller (MVC) dan 
+
+hubungan antar komponen sistem. 
+
+ 
+
+Gambar I.x 
+Class Diagram 
+
+Class diagram di atas menunjukkan struktur sistem e-learning yang dibangun 
+
+dengan pola MVC. Terdapat beberapa kelas utama yang dikelompokkan berdasarkan 
+
+fungsinya dalam sistem: 
+
+1. Kelas-kelas Model: Mapel, Materi, Tugas, Kelas, Siswa, dan Submission_tugas 
+
+2. Kelas-kelas Controller: Guru, Admin, User 
+
+3. Kelas pendukung: seperti Diskusi dan Jadwal 
+
+2.3. Rancangan Database 
+
+ 
+20 
+
+  
+
+
+
+ 
+
+2.3.1. Entity Relationship Diagram (ERD) 
+
+Entity Relationship Diagram (ERD) merupakan model data yang digunakan 
+
+untuk menggambarkan hubungan antar entitas dalam basis data. ERD menyediakan 
+
+cara yang sistematis untuk mengidentifikasi entitas penting dalam sistem informasi 
+
+serta atribut dan relasi antar entitas tersebut. Penggunaan ERD sangat penting dalam 
+
+tahap perancangan basis data karena membantu mengidentifikasi komponen data yang 
+
+akan disimpan dan diproses oleh sistem (Hendini, 2016). 
+
+Dalam pengembangan sistem e-learning, ERD memfasilitasi pemahaman 
+
+struktur data dan aliran informasi antar komponen sistem. ERD menjadi landasan 
+
+penting untuk implementasi basis data yang dapat mendukung fungsi-fungsi sistem 
+
+secara optimal. 
+
+ 
+
+Gambar II.x 
+Entity Relationship Diagram 
+
+ERD pada gambar di atas menunjukkan struktur basis data untuk sistem e-
+
+learning yang terdiri dari beberapa entitas utama seperti guru, siswa, materi, tugas, 
+
+ 
+21 
+
+  
+
+
+
+ 
+
+jadwal, diskusi, mapel, kelas, dan submission_tugas. Setiap entitas memiliki atribut 
+
+khusus dan terhubung dengan entitas lain melalui relasi "memiliki". 
+
+2.3.2. Struktur Tabel 
+
+Berdasarkan ERD yang telah dirancang, berikut adalah struktur tabel untuk 
+
+masing-masing entitas: 
+
+Tabel II.1 
+Struktur Tabel Guru 
+
+Field Name Data Type Size Keterangan Key 
+
+Nip Varchar 20 Nomor Induk Pegawai PK 
+
+Nama_guru Varchar 100 Nama lengkap guru - 
+
+Email Varchar 100 Alamat email guru - 
+
+Password Varchar 255 Password terenkripsi - 
+
+Id_mapel Int 11 ID mata Pelajaran FK 
+
+Id_diskusi Int 11 ID diskusi FK 
+
+ 
+
+Tabel II.2 
+Struktur Tabel Siswa 
+
+Field Name Data Type Size Keterangan Key 
+
+Id_siswa Int 11 Id Siswa PK 
+
+Nama Varchar 100 Nama lengkap siswa - 
+
+Email Varchar 100 Alamat email siswa - 
+
+Password Varchar 255 Password terenkripsi - 
+
+Id_kelas Int 11 ID kelas FK 
+
+Image Varchar 255 Foto profil siswa - 
+
+Is_active Tinyint 1 Status aktif/nonaktif - 
+
+ 
+22 
+
+  
+
+
+
+ 
+
+Date_create Datetime - Tanggal pembuatan akun - 
+
+Id_diskusi Int 11 ID diskusi FK 
+
+Id_materi Int 11 ID materi FK 
+
+ 
+
+Tabel II.3 
+Struktur Tabel Materi 
+
+Field Name Data Type Size Keterangan Key 
+
+Id_materi Int 11 ID materi PK 
+
+Nip Varchar 20 NIP guru pengajar FK 
+
+Nama_mapel Varchar 100 Nama mata pelajaran - 
+
+File Varchar 255 File materi - 
+
+Tanggal_upload Datetime - Tanggal upload materi - 
+
+Deskripsi Text - Deskripsi materi - 
+
+Id_mapel Int 11 ID mata Pelajaran FK 
+
+Id_kelas Int 11 ID kelas FK 
+
+Id_diskusi Int 11 ID diskusi FK 
+
+ 
+
+Tabel II.4 
+Struktur Tabel Tugas 
+
+Field Name Data Type Size Keterangan Key 
+
+Id_tugas Int 11 ID tugas PK 
+
+Id_mapel Int 11 ID mata Pelajaran FK 
+
+Judul_tugas Varchar 255 Judul tugas - 
+
+Deskripsi Text - Deskripsi tugas - 
+
+Kelas Varchar 50 Kelas yang dituju - 
+
+ 
+23 
+
+  
+
+
+
+ 
+
+Video Varchar 255 Link video tugas - 
+
+Nama_mapel Varchar 100 Nama mata Pelajaran - 
+
+Deadline Datetime - Batas waktu pengumpulan - 
+
+File_tugas Varchar 255 File tugas - 
+
+Created_at Datetime - Tanggal pembuatan - 
+
+Updated_at Datetime - Tanggal pembaruan - 
+
+ 
+
+Tabel II.5 
+Struktur Tabel Submission_Tugas 
+
+Field Name Data Type Size Keterangan Key 
+
+Id_submission Int 11 ID submission PK 
+
+Id_tugas Int 11 ID tugas FK 
+
+Id_siswa Int 11 ID siswa FK 
+
+File_submission Varchar 255 File jawaban - 
+
+Tanggal_submit Datetime - Tanggal pengumpulan - 
+
+Nilai Float - Nilai tugas - 
+
+Komentar Text - Komentar guru - 
+
+Status Varchar 50 Status tugas - 
+
+Created_at Datetime - Tanggal pembuatan - 
+
+Updated_at Datetime - Tanggal pembaruan - 
+
+ 
+
+Tabel II.6 
+Struktur Tabel Jadwal 
+
+Field Name Data Type Size Keterangan Key 
+
+Id_jadwal Int 11 Id jadwal PK 
+
+ 
+24 
+
+  
+
+
+
+ 
+
+Nip Varchar 20 NIP guru FK 
+
+Kelas_id Int 11 ID kelas FK 
+
+Materi_id Int 11 ID materi FK 
+
+Hari Varchar 20 Hari jadwal - 
+
+Jam_mulai Time - Jam mulai - 
+
+Jam_selesai Time - Jam selesai - 
+
+Created_at Datetime - Tanggal pembuatan - 
+
+Updated_at Datetime - Tanggal pembaruan - 
+
+ 
+
+Tabel II.7 
+Struktur Tabel Mapel 
+
+Field Name Data Type Size Keterangan Key 
+
+Id_mapel Int 11 ID mata Pelajaran PK 
+
+Nama_mapel Varchar 100 Nama mata Pelajaran - 
+
+Kode_mapel Varchar 20 Kode mata Pelajaran - 
+
+Nip Varchar 20 NIP guru pengampu FK 
+
+Created_at Datetime - Tanggal pembuatan - 
+
+Updated_at Datetime - Tanggal pembaruan - 
+
+ 
+
+Tabel II.8 
+Struktur Tabel Diskusi 
+
+Field Name Data Type Size Keterangan Key 
+
+Id_diskusi Int 11 ID diskusi FK 
+
+Id_siswa Int 11 ID siswa FK 
+
+Id_materi Int 11 ID materi FK 
+
+ 
+25 
+
+  
+
+
+
+ 
+
+Id_guru Int 11 ID guru FK 
+
+ 
+
+Tabel II.9 
+Struktur Tabel Kelas 
+
+Field Name Data Type Size Keterangan Key 
+
+Id_kelas Int 11 ID kelas PK 
+
+Nama_kelas Varchar 50 Nama kelas - 
+
+Jumlah_siswa Int 11 Jumlah siswa - 
+
+ 
+
+2.4. Rancangan Antarmuka 
+
+2.4.1. Halaman Admin 
+
+2.4.2. Halaman Guru 
+
+2.4.3. Halaman Siswa 
+
+2.5. Implementasi Sistem 
+
+2.5.1. Penerapan Framework CodeIgniter 
+
+2.5.2. Penjelasan Kode Program Utama 
+
+2.6. Pengujian Sistem 
+
+2.6.1. Blackbox Testing 
+
+2.6.2. Hasil Pengujian
+
+ 
+26 
+
+  
+
+
+
+ 
+
+BAB III  
+
+PENUTUP 
+
+3.1. KESIMPULAN 
+
+3.2. SARAN 
+
+ 
+27

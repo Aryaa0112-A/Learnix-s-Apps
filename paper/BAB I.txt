@@ -1,0 +1,358 @@
+﻿BAB I 
+
+PENDAHULUAN 
+
+ 
+
+1.1. Latar Belakang 
+
+Transformasi digital dalam bidang pendidikan telah menjadi keniscayaan di era 
+
+modern, menghadirkan berbagai solusi inovatif untuk mengatasi keterbatasan sistem 
+
+pembelajaran konvensional. Teknologi informasi kini memegang peranan strategis 
+
+dalam meningkatkan kualitas pendidikan melalui akses yang lebih luas terhadap 
+
+sumber belajar dan interaksi yang lebih dinamis antara pendidik dan peserta didik 
+
+(Encarnacion et al., 2021). SMK Teknologi Pilar Bangsa yang berlokasi di Jl. Raya 
+
+Mauk KM. 08 Sulang, Desa Karet, Kecamatan Sepatan, Kabupaten Tangerang, 
+
+Provinsi Banten, perlu mengadaptasi perkembangan ini untuk meningkatkan kualitas 
+
+layanan pendidikannya. 
+
+Sistem pembelajaran yang diterapkan di SMK Teknologi Pilar Bangsa saat ini 
+
+masih didominasi oleh metode konvensional yang menimbulkan beberapa kendala. 
+
+Pertama, transfer pengetahuan terbatas pada pertemuan tatap muka, sehingga 
+
+pembelajaran menjadi kurang optimal ketika siswa tidak dapat hadir atau memerlukan 
+
+pengulangan materi. Kedua, pengelolaan tugas masih bersifat fisik yang 
+
+mengakibatkan risiko kehilangan, pemborosan kertas, dan kesulitan dalam 
+
+pengarsipan. Ketiga, proses evaluasi belajar dilakukan secara manual yang memakan 
+
+waktu dan rentan terhadap kesalahan perhitungan. Keempat, komunikasi pembelajaran 
+
+di luar kelas sangat terbatas, menghambat proses bimbingan dan konsultasi yang 
+
+berkesinambungan (Widada, 2017). 
+
+ 
+1 
+
+  
+
+
+
+ 
+
+Meskipun menghadapi tantangan tersebut, SMK Teknologi Pilar Bangsa 
+
+memiliki potensi yang signifikan untuk mengembangkan ekosistem pembelajaran 
+
+digital. Dengan populasi akademik yang mencakup 960 siswa, 26 tenaga pendidik, dan 
+
+14 tenaga kependidikan, sekolah ini didukung oleh infrastruktur teknologi berupa 
+
+laboratorium komputer dengan sekitar 80 unit komputer serta jaringan internet di 4 
+
+titik lokasi strategis. Sebagai institusi kejuruan dengan 3 jurusan yaitu Multimedia, 
+
+Teknik Kendaraan Ringan Otomotif, dan Otomatisasi Tata Kelola Perkantoran, 
+
+penerapan teknologi informasi menjadi relevan dan mendesak untuk mempersiapkan 
+
+siswa menghadapi dunia kerja di era digital. 
+
+Berdasarkan analisis situasi tersebut, pengembangan Sistem Informasi E-
+
+Learning berbasis web menggunakan framework CodeIgniter (CI) menjadi solusi yang 
+
+tepat untuk mengatasi permasalahan pembelajaran di SMK Teknologi Pilar Bangsa. 
+
+Zainul et al. (2020) mengungkapkan bahwa sistem e-learning berbasis web sangat 
+
+efektif dalam mendukung proses belajar mengajar, terutama di masa pandemi COVID-
+
+19 yang mengharuskan adanya pembelajaran jarak jauh. Sistem ini akan 
+
+mengintegrasikan pengelolaan materi pembelajaran, penugasan, penilaian, dan 
+
+komunikasi dalam satu platform terpadu yang dapat diakses kapan saja dan di mana 
+
+saja. Implementasi e-learning diharapkan tidak hanya mengatasi keterbatasan metode 
+
+konvensional, tetapi juga meningkatkan kompetensi digital siswa dan guru, serta 
+
+menciptakan lingkungan belajar yang lebih efektif, efisien, dan berkelanjutan. 
+
+1.2. Tools Pengembangan Aplikasi 
+
+Dalam pengembangan Sistem Informasi E-Learning SMK Teknologi Pilar 
+
+Bangsa, digunakan beberapa tools pengembangan sebagai berikut: 
+
+1. Framework CodeIgniter 3: Kerangka kerja PHP berbasis MVC (Model-View-
+
+Controller) yang dipilih sebagai fondasi utama aplikasi. CodeIgniter 
+
+ 
+2 
+
+  
+
+
+
+ 
+
+diimplementasikan karena struktur yang sederhana, performa tinggi, dokumentasi 
+
+lengkap, dan keamanan yang baik untuk pengembangan aplikasi web. Seperti yang 
+
+dikemukakan oleh Mendrofa et al. (2023), CodeIgniter merupakan framework 
+
+yang ringan, cepat, dan mudah dipahami, menjadikannya pilihan ideal untuk 
+
+pengembangan aplikasi web dengan skala kecil hingga menengah. 
+
+2. PHP: Bahasa pemrograman server-side yang digunakan untuk membangun logika 
+
+bisnis dan fungsi-fungsi aplikasi. Versi PHP yang digunakan adalah PHP 8.1 untuk 
+
+memastikan kompatibilitas dan memanfaatkan fitur-fitur terbaru. Sumarna et al. 
+
+(2020) menyatakan bahwa PHP merupakan bahasa pemrograman yang paling 
+
+umum digunakan dalam pengembangan aplikasi berbasis web karena 
+
+fleksibilitasnya dan dukungan yang luas. 
+
+3. MySQL: Sistem manajemen basis data relasional yang digunakan untuk 
+
+menyimpan dan mengelola data seperti informasi pengguna (admin, guru, siswa), 
+
+materi pembelajaran, tugas, jadwal, dan nilai. Mukhlizar et al. (2020) menerangkan 
+
+bahwa MySQL sangat cocok digunakan untuk aplikasi e-learning karena 
+
+kemampuannya dalam mengelola data dengan efisien dan keamanannya yang 
+
+tinggi. 
+
+4. HTML5, CSS3, dan JavaScript: Teknologi front-end yang digunakan untuk 
+
+membangun antarmuka pengguna yang responsif dan interaktif. HTML5 
+
+digunakan untuk struktur halaman, CSS3 untuk styling, dan JavaScript untuk 
+
+interaktivitas. Sulistiyanto et al. (2020) dalam penelitiannya menegaskan 
+
+pentingnya tampilan responsif untuk aplikasi web pendidikan agar dapat diakses 
+
+melalui berbagai perangkat. 
+
+5. Bootstrap 4: Framework CSS yang digunakan untuk mempercepat pengembangan 
+
+antarmuka pengguna dengan komponen yang sudah tersedia dan responsif pada 
+
+ 
+3 
+
+  
+
+
+
+ 
+
+berbagai ukuran perangkat. Menurut Lucero et al. (2021), penggunaan Bootstrap 
+
+dapat mempercepat proses pengembangan aplikasi e-learning dengan tampilan 
+
+yang konsisten dan modern. 
+
+6. jQuery: Library JavaScript yang diimplementasikan untuk menyederhanakan 
+
+manipulasi DOM, penanganan event, dan permintaan AJAX dalam aplikasi. Dela 
+
+Rosa et al. (2023) mengungkapkan bahwa jQuery sangat membantu dalam 
+
+membangun fitur interaktif pada aplikasi e-learning seperti kuis dinamis dan 
+
+pengumpulan tugas. 
+
+7. Laragon: Lingkungan pengembangan web lokal yang digunakan sebagai alternatif 
+
+XAMPP untuk menjalankan Apache, MySQL, dan PHP pada tahap pengembangan. 
+
+Nasution et al. (2022) dalam penelitiannya menyebutkan bahwa Laragon 
+
+menawarkan performa yang lebih baik dibandingkan alternatif lain untuk 
+
+pengembangan lokal. 
+
+8. FontAwesome: Library ikon yang digunakan untuk memperkaya antarmuka 
+
+pengguna dengan berbagai ikon yang intuitif dan mudah dikenali. 
+
+9. SweetAlert2: Library JavaScript yang digunakan untuk menampilkan pesan 
+
+konfirmasi dan notifikasi yang lebih menarik dan interaktif. 
+
+10. DataTables: Plugin jQuery yang diimplementasikan untuk menambahkan fitur-
+
+fitur interaktif pada tabel HTML seperti pencarian, pengurutan, dan pagination. 
+
+11. Summernote: Editor WYSIWYG berbasis JavaScript yang digunakan untuk 
+
+memungkinkan guru membuat konten materi pembelajaran dengan format yang 
+
+kaya. Irfan et al. (2020) menunjukkan bahwa editor WYSIWYG merupakan 
+
+komponen penting dalam sistem e-learning untuk memfasilitasi pembuatan konten 
+
+pembelajaran yang berkualitas. 
+
+ 
+4 
+
+  
+
+
+
+ 
+
+12. Git dan GitHub: Sistem kontrol versi yang digunakan untuk mengelola perubahan 
+
+kode dan memfasilitasi kolaborasi dalam pengembangan aplikasi. 
+
+Tools-tools pengembangan tersebut dipilih dengan mempertimbangkan kebutuhan 
+
+aplikasi, kemudahan penggunaan, serta kemampuan untuk menghasilkan aplikasi yang 
+
+berkualitas, aman, dan mudah dipelihara. 
+
+1.3. Deskripsi Aplikasi 
+
+Sistem Informasi E-Learning SMK Teknologi Pilar Bangsa adalah aplikasi 
+
+berbasis web yang dirancang untuk mendukung proses pembelajaran digital di 
+
+lingkungan sekolah. Aplikasi ini dibangun menggunakan framework CodeIgniter 
+
+dengan pendekatan Model-View-Controller (MVC) yang memisahkan logika bisnis, 
+
+tampilan, dan kontrol aplikasi sehingga mempermudah pengembangan dan 
+
+pemeliharaan sistem. 
+
+Aplikasi ini memiliki tiga jenis pengguna dengan hak akses berbeda, yaitu: 
+
+1. Administrator: Memiliki kendali penuh terhadap sistem, dapat mengelola data 
+
+pengguna (guru dan siswa), kelas, mata pelajaran, jadwal, dan materi 
+
+pembelajaran. Administrator berperan sebagai pengelola utama sistem dengan 
+
+kemampuan untuk menambah, mengubah, dan menghapus data pada seluruh 
+
+komponen sistem. 
+
+2. Guru: Dapat mengelola materi pembelajaran, tugas, dan penilaian untuk mata 
+
+pelajaran yang diampu. Guru dapat mengunggah materi dalam berbagai format 
+
+(PDF, dokumen, presentasi), membuat tugas dengan tenggat waktu tertentu, serta 
+
+memberikan nilai dan umpan balik terhadap pekerjaan siswa. 
+
+3. Siswa: Dapat mengakses materi pembelajaran, mengunduh bahan ajar, 
+
+mengerjakan dan mengumpulkan tugas, serta melihat nilai dan umpan balik dari 
+
+ 
+5 
+
+  
+
+
+
+ 
+
+guru. Siswa juga dapat melihat jadwal pembelajaran sesuai dengan kelas yang 
+
+diikuti. 
+
+Sistem ini memiliki beberapa fitur utama, di antaranya: 
+
+1. Manajemen Pengguna: Fitur untuk mengelola data pengguna, termasuk 
+
+pendaftaran siswa dan guru, pengaturan profil, dan pengelolaan hak akses. 
+
+2. Manajemen Kelas dan Mata Pelajaran: Fitur untuk mengelola data kelas, jurusan, 
+
+dan mata pelajaran yang mencakup pembagian siswa ke dalam kelas dan 
+
+pengaturan guru pengampu mata pelajaran. 
+
+3. Manajemen Materi Pembelajaran: Fitur untuk mengunggah, mengorganisir, dan 
+
+mendistribusikan materi pembelajaran dalam berbagai format. 
+
+4. Manajemen Tugas: Fitur untuk membuat, mengumpulkan, dan menilai tugas-tugas 
+
+yang diberikan kepada siswa dengan pengaturan tenggat waktu. 
+
+5. Sistem Penilaian: Fitur untuk mengelola nilai siswa dari berbagai jenis penilaian 
+
+dengan kemampuan untuk memberikan umpan balik. 
+
+6. Jadwal Pembelajaran: Fitur untuk mengelola dan menampilkan jadwal 
+
+pembelajaran berdasarkan kelas, mata pelajaran, dan guru pengampu. 
+
+Aplikasi ini dirancang dengan antarmuka yang responsif menggunakan Bootstrap, 
+
+sehingga dapat diakses dengan baik melalui berbagai perangkat, baik desktop maupun 
+
+mobile. Sistem keamanan diterapkan melalui otentikasi pengguna, enkripsi password, 
+
+dan validasi input untuk mencegah serangan seperti SQL injection dan Cross-Site 
+
+Scripting (XSS). 
+
+ 
+
+Dengan mengimplementasikan Sistem Informasi E-Learning ini, SMK Teknologi 
+
+Pilar Bangsa dapat meningkatkan efektivitas dan efisiensi proses pembelajaran, 
+
+memperluas akses siswa terhadap materi pembelajaran, serta memfasilitasi interaksi 
+
+ 
+6 
+
+  
+
+
+
+ 
+
+yang lebih baik antara guru dan siswa di luar jam pelajaran konvensional. 
+
+Sebagaimana temuan dari Nasution et al. (2022), sistem monitoring dan evaluasi 
+
+pembelajaran berbasis web dapat meningkatkan kualitas proses belajar mengajar 
+
+secara signifikan dengan memberikan data dan metrik yang diperlukan untuk 
+
+perbaikan berkelanjutan
+
+ 
+7
