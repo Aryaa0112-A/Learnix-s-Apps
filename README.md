@@ -1,49 +1,50 @@
 # Learnix-s-Apps
-Sistem Informasi e-learning
-Merupakan pembelajaran online berbasis Framework CodeIgniter 3 untuk sekolah/madrasah dengan fitur diskusi, tugas, jadwal, dan manajemen kelas.
+e-learning Information System
+It is an online learning based on CodeIgniter 3 Framework for schools/madrasas with discussion, assignment, schedule, and class management features.
 
-## 🚀 Fitur Utama
+## 🚀 Main Features
 
-- **Dashboard Admin**: Manajemen guru, siswa, kelas, dan jadwal
-- **Dashboard Guru**: Upload materi, buat tugas, dan kelola kelas
-- **Dashboard Siswa**: Akses materi, submit tugas, dan lihat jadwal
-- **Sistem Diskusi**: Forum diskusi antar siswa dan guru
-- **Manajemen File**: Upload dan download materi pembelajaran
-- **Sistem Notifikasi**: Pemberitahuan tugas dan pengumuman
+- **Admin Dashboard**: Teacher, student, class, and schedule management
+- Teacher Dashboard**: Upload materials, create assignments, and manage classes
+- **Student Dashboard**: Access materials, submit assignments, and view schedules
+- Discussion System**: Discussion forum between students and teachers
+- File Management**: Upload and download learning materials
+- Notification System**: Notification of assignments and announcements
 
-## 📋 Persyaratan Sistem
+## 📋 System Requirements
 
-- PHP 8.0 atau lebih tinggi
-- MySQL 5.7 atau lebih tinggi
+- PHP 8.0 or higher
+- MySQL 5.7 or higher
 - Apache/Nginx web server
 - CodeIgniter 3.x
 
-## 🛠️ Instalasi
+## 🛠️ Installation
 
 1. **Clone repository**
-   ```bash
-   [git clone https://github.com/Aryaa0112-A/Learnix-s-Apps.git]
-   ```
+ ```bash
+ [git clone https://github.com/Aryaa0112-A/Learnix-s-Apps.git]
+ ```
 
-2. **Konfigurasi Database**
-   - Buat database MySQL baru
-   - Import file `database/teknologi-pilar-bangsa.sql`
-   - Salin `application/config/database.php.example` ke `application/config/database.php`
-   - Sesuaikan konfigurasi database di file tersebut
+2. **Database Configuration**
+   - Create a new MySQL database
+   - Import the file `database/technology-pillar-nation.sql`
+   - Copy `application/config/database.php.example` to `application/config/database.php`
+   - Customize the database configuration in the file
 
-3. **Konfigurasi Aplikasi**
-   - Salin `application/config/config.php.example` ke `application/config/config.php`
-   - Sesuaikan base_url dan konfigurasi lainnya
+3. **Application Configuration**
+   - Copy `application/config/config.php.example` to `application/config/config.php`
+   - Customize base_url and other configurations
 
-4. **Set Permission**
-   ```bash
-   chmod 755 application/cache/
-   chmod 755 application/logs/
-   chmod 755 uploads/
-   ```
+4. **Set Permissions**
+ ``bash
+ chmod 755 application/cache/
+ chmod 755 application/logs/
+ chmod 755 uploads/
+ ``
 
-5. **Akses Aplikasi**
-   - Buka browser dan akses `http://localhost/`
+5. **Access Application**
+   - Open a browser and access `http://localhost/`
+
 
 
 ## 📁 Struktur Project
@@ -51,42 +52,42 @@ Merupakan pembelajaran online berbasis Framework CodeIgniter 3 untuk sekolah/mad
 ```
 Learnixs/
 ├── application/
-│   ├── controllers/     # Controller aplikasi
-│   ├── models/         # Model database
-│   ├── views/          # View/template
-│   └── config/         # Konfigurasi
-├── assets/             # Asset statis (CSS, JS, Images)
-├── system/             # Core CodeIgniter
-├── uploads/            # File upload
-└── database/           # File database
-```
+│ ├── controllers/ # Controller aplikasi
+│ ├── models/ # Model database
+│ ├── views/ # View/template
+│ └── config/ # Konfigurasi
+├── assets/ # Asset statis (CSS, JS, Images)
+├── system/ # Core CodeIgniter
+├── uploads/ # File upload
+└── database/ # File database
+````
 
-## 🔧 Konfigurasi
+## 🔧── Konfigurasi
 
 ### Database
 Edit file `application/config/database.php`:
 ```php
 $db['default'] = array(
-    'hostname' => 'localhost',
-    'username' => 'your_username',
-    'password' => 'your_password',
-    'database' => 'your_database',
-    'dbdriver' => 'mysqli',
-    'dbprefix' => '',
-    'pconnect' => FALSE,
-    'db_debug' => (ENVIRONMENT !== 'production'),
-    'cache_on' => FALSE,
-    'cachedir' => '',
-    'char_set' => 'utf8',
-    'dbcollat' => 'utf8_general_ci',
-    'swap_pre' => '',
-    'encrypt' => FALSE,
-    'compress' => FALSE,
-    'stricton' => FALSE,
-    'failover' => array(),
-    'save_queries' => TRUE
+ 'hostname' => 'localhost',
+ 'username' => 'your_username',
+ 'password' => 'your_password',
+ 'database' => 'your_database',
+ 'dbdriver' => 'mysqli',
+ 'dbprefix' => '',
+ 'pconnect' => FALSE,
+ 'db_debug' => (ENVIRONMENT ! == 'production'),
+ 'cache_on' => FALSE,
+ 'cachedir' => '',
+ 'char_set' => 'utf8',
+ 'dbcollat' => 'utf8_general_ci',
+ 'swap_pre' => '',
+ 'encrypt' => FALSE,
+ 'compress' => FALSE,
+ 'stricton' => FALSE,
+ 'failover' => array(),
+ 'save_queries' => TRUE
 );
-```
+````
 
 ## 🚀 Deployment
 
@@ -104,20 +105,20 @@ $db['default'] = array(
 - Sistem diskusi dan tugas
 - Manajemen file upload
 
-## 🤝 Kontribusi
+## 🤝 Contributions
 
 1. Fork project
-2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buat Pull Request
+2. Create a new feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m ‘Add some AmazingFeature’`)
+4. Push to branch (`git push origin feature/AmazingFeature`)
+5. Create Pull Request
 
 ## 👨‍💻 Developer aryadillah.vercel.app
 
-Dikembangkan dengan ❤️ untuk kemajuan pendidikan Indonesia.
-Member dari Tim **The Debuggers**
+Developed with ❤️ for the advancement of Indonesian education.
+Member of **The Debuggers** Team
 
 ---
 
-**learnix's** - Sistem Pembelajaran Online yang Terpercaya 
+**Learnix's** - Trusted Online Learning System
 
