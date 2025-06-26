@@ -68,6 +68,5 @@ members of the project's leadership.
 ## Attribution
 
 This program code is well developed and maximized by our team.
-
-[homepage]: https://thedebuggers.vercel.app/
+https://thedebuggers.vercel.app/
 
