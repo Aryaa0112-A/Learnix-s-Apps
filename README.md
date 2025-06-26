@@ -115,6 +115,7 @@ $db['default'] = array(
 ## 👨‍💻 Developer aryadillah.vercel.app
 
 Dikembangkan dengan ❤️ untuk kemajuan pendidikan Indonesia.
+Member dari Tim **The Debuggers**
 
 ---
 
